@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+*.egg-info/
+
+# # Outputs
+# outputs/
+# *.out
+# *.npy
+
+# VSCode
+.vscode/
+
+## Not comitting raw data set
+# 1) Ignore the whole dataset tree
+Nagano_Data/**
+
+# 2) Re-allow directories so Git can descend into them
+!Nagano_Data/**/
+
+# 3) Un-ignore ONLY latent npy files
+!Nagano_Data/**/*_latent.npy
