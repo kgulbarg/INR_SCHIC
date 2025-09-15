@@ -28,3 +28,6 @@ Nagano_Data/**
 
 # 3) Un-ignore ONLY latent npy files
 !Nagano_Data/**/*_latent.npy
+
+## Not committing CSV files
+Nagano.csv
